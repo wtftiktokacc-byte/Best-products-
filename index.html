@@ -1,22 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Best Products</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Products</title>
 
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            margin:0;
+            padding:0;
+        }
+
+        header{
+            background:#0077cc;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        .container{
+            width:90%;
+            max-width:1000px;
+            margin:30px auto;
+        }
+
+        .product{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,.1);
+        }
+
+        .product h2{
+            margin-top:0;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:10px 20px;
+            background:#0077cc;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
+        }
+
+        .btn:hover{
+            background:#005fa3;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+
+</head>
 <body>
 
-<h1>Welcome to Best Products</h1>
+<header>
+    <h1>Best Products</h1>
+    <p>Discover the Best Amazon Products & Top Deals</p>
+</header>
 
-<p>Discover the best Amazon products, top deals and trusted recommendations.</p>
+<div class="container">
 
-<h2>Featured Products</h2>
+    <div class="product">
+        <h2>Featured Product</h2>
 
-<div>
-<h3>Product Name</h3>
-<p>Best quality product available on Amazon.</p>
-<a href="https://www.amazon.com">View on Amazon</a>
+        <p>
+            High quality Amazon product with excellent customer reviews.
+        </p>
+
+        <a class="btn"
+           href="https://www.amazon.com/"
+           target="_blank">
+           View on Amazon
+        </a>
+    </div>
+
 </div>
+
+<footer>
+    © 2025 Best Products. All Rights Reserved.
+</footer>
 
 </body>
 </html>
