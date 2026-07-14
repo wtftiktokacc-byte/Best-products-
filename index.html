@@ -1,67 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Products</title>
 
-    <!-- CSS File -->
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Best Products | Shahzaib Abbasi</title>
+
+<meta name="description" content="Discover the best Amazon products, honest reviews, and daily deals by Shahzaib Abbasi.">
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
+
 <body>
 
-<header>
-    <h1>Best Products</h1>
-    <p>Discover the Best Amazon Products & Top Deals</p>
-</header>
+<!-- Loader -->
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#summer">Summer Collection</a>
-    <a href="#winter">Winter Collection</a>
-</nav>
+<div id="loader">
+    <div class="spinner"></div>
+</div>
 
-<div class="container">
+<!-- Navbar -->
 
-    <section id="summer">
-        <h2>☀️ Summer Collection</h2>
+<nav class="navbar">
 
-        <div class="product">
-            <h3>Cooling Fan</h3>
-            <p>Stay cool during hot summer days.</p>
-            <a href="https://www.amazon.com/" target="_blank">View on Amazon</a>
-        </div>
+<div class="logo">
 
-        <div class="product">
-            <h3>Water Bottle</h3>
-            <p>Keep your drinks cold for hours.</p>
-            <a href="https://www.amazon.com/" target="_blank">View on Amazon</a>
-        </div>
+<i class="fa-brands fa-amazon"></i>
 
-    </section>
-
-    <section id="winter">
-        <h2>❄️ Winter Collection</h2>
-
-        <div class="product">
-            <h3>Winter Jacket</h3>
-            <p>Warm and comfortable for cold weather.</p>
-            <a href="https://www.amazon.com/" target="_blank">View on Amazon</a>
-        </div>
-
-        <div class="product">
-            <h3>Room Heater</h3>
-            <p>Perfect for keeping your room warm.</p>
-            <a href="https://www.amazon.com/" target="_blank">View on Amazon</a>
-        </div>
-
-    </section>
+<span>Best Products</span>
 
 </div>
 
-<footer>
-    <p>© 2025 Best Products. All Rights Reserved.</p>
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#featured">Featured</a></li>
+
+<li><a href="#summer">Summer</a></li>
+
+<li><a href="#winter">Winter</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="nav-icons">
+
+<button id="themeToggle">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+</div>
+
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+
+Discover The Best Amazon Products
+
+</h1>
+
+<p>
+
+Premium Reviews • Honest Recommendations • Daily Deals
+
+</p>
+
+<div class="search-box">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<input type="text" placeholder="Search Products...">
+
+</div>
+
+<div class="hero-buttons">
+
+<a href="#featured" class="btn">
+
+Explore Products
+
+</a>
+
+<a href="https://wa.me/923266298896" class="btn2">
+
+WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- About -->
+
+<section id="about" class="about">
+
+<div class="about-image">
+
+<img src="shahzaib.jpg" alt="Shahzaib Abbasi">
+
+</div>
+
+<div class="about-content">
+
+<h2>Shahzaib Abbasi</h2>
+
+<h4>Amazon Product Research Specialist</h4>
+
+<p>
+
+Welcome to Best Products.
+
+I research, review and recommend high-quality Amazon products.
+
+My goal is to help visitors find trusted products with honest recommendations and the best online deals.
+
+</p>
+
+<div class="stats">
+
+<div>
+
+<h3>500+</h3>
+
+<span>Products</span>
+
+</div>
+
+<div>
+
+<h3>100%</h3>
+
+<span>Trusted Reviews</span>
+
+</div>
+
+<div>
+
+<h3>24/7</h3>
+
+<span>Support</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section><!-- ================= FEATURED PRODUCTS ================= -->
+
+<section id="featured" class="featured">
+
+<div class="section-title">
+<h2>🔥 Featured Products</h2>
+<p>Top Rated Amazon Picks</p>
+</div>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600" alt="">
+<h3>Wireless Headphones</h3>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<h4>$49.99</h4>
+<a href="#">Buy on Amazon</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="">
+<h3>Running Shoes</h3>
+<p>⭐⭐⭐⭐⭐ (4.8)</p>
+<h4>$69.99</h4>
+<a href="#">Buy on Amazon</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600" alt="">
+<h3>Smart Watch</h3>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<h4>$89.99</h4>
+<a href="#">Buy on Amazon</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SUMMER ================= -->
+
+<section id="summer">
+
+<div class="section-title">
+<h2>☀ Summer Collection</h2>
+</div>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523362628745-0c100150b504?w=600">
+<h3>Steel Water Bottle</h3>
+<p>Keep drinks cold all day.</p>
+<h4>$24.99</h4>
+<a href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600">
+<h3>Portable Neck Fan</h3>
+<p>Stay cool anywhere.</p>
+<h4>$34.99</h4>
+<a href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600">
+<h3>Travel Mug</h3>
+<p>Perfect for travelling.</p>
+<h4>$19.99</h4>
+<a href="#">Buy Now</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WINTER ================= -->
+
+<section id="winter">
+
+<div class="section-title">
+<h2>❄ Winter Collection</h2>
+</div>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600">
+<h3>Room Heater</h3>
+<p>Warm your home instantly.</p>
+<h4>$59.99</h4>
+<a href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600">
+<h3>Winter Jacket</h3>
+<p>Premium Quality Jacket.</p>
+<h4>$79.99</h4>
+<a href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1548883354-94bcfe321cbb?w=600">
+<h3>Thermal Gloves</h3>
+<p>Extra warm and comfortable.</p>
+<h4>$14.99</h4>
+<a href="#">Buy Now</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why">
+
+<div class="section-title">
+<h2>Why Choose Best Products?</h2>
+</div>
+
+<div class="features">
+
+<div class="feature">
+<i class="fas fa-award"></i>
+<h3>Trusted Reviews</h3>
+<p>Honest product recommendations.</p>
+</div>
+
+<div class="feature">
+<i class="fas fa-bolt"></i>
+<h3>Latest Deals</h3>
+<p>Daily updated Amazon deals.</p>
+</div>
+
+<div class="feature">
+<i class="fas fa-headset"></i>
+<h3>24/7 Support</h3>
+<p>Always here to help.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact">
+
+<h2>Best Products</h2>
+
+<p>Amazon Product Reviews & Recommendations</p>
+
+<p>
+<i class="fab fa-whatsapp"></i>
+03266298896
+</p>
+
+<p>
+© 2025 Shahzaib Abbasi
+</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
