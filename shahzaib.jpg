@@ -1,0 +1,19 @@
+<div class="profile-card">
+    <img src="shahzaib.jpg" alt="Shahzaib Abbasi" class="profile-img">
+
+    <h2>Shahzaib Abbasi</h2>
+
+    <span class="designation">
+        Amazon Product Research Specialist
+    </span>
+
+    <p>
+        Welcome to <strong>Best Products</strong>. I research, review, and recommend
+        top-rated Amazon products to help shoppers find quality products and the best deals.
+        Every recommendation is carefully selected with honesty and value in mind.
+    </p>
+
+    <a href="https://wa.me/923266298896" class="whatsapp-btn">
+        Contact on WhatsApp
+    </a>
+</div>
